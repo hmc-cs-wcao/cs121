@@ -18,47 +18,253 @@
 
     	 //create map 
 	     function initMap() {
-	     	//lat long for Claremont 
-		  var myLatLng = {lat: 34.0967, lng: -117.7198}; 
-		  var map = new google.maps.Map(document.getElementById('map'), {
-		    zoom: 13,
-		    center: myLatLng
-		  });
 
-  		  //added layers
-  		  var trafficLayer = new google.maps.TrafficLayer();
-  		  trafficLayer.setMap(map);
+			  var centerLatLng = new google.maps.LatLng(34.096680, -117.719780);
+			  var latlng = new google.maps.LatLng(34.101850, -117.717470);
+			  var map = new google.maps.Map(document.getElementById('map'), {
+			    zoom: 15,
+			    center: centerLatLng,
+			    //mapTypeId: google.maps.MapTypeId.ROADMAP
+			  });
 
-		  var transitLayer = new google.maps.TransitLayer();
-		  transitLayer.setMap(map);
+	  		  //adds layers
+	  		  var trafficLayer = new google.maps.TrafficLayer();
+	  		  trafficLayer.setMap(map);
 
-		  var bikeLayer = new google.maps.BicyclingLayer();
-		  bikeLayer.setMap(map);
+			  var transitLayer = new google.maps.TransitLayer();
+			  transitLayer.setMap(map);
 
-		  //adds marker and listener
-		  // marker = new google.maps.Marker({
-		  //   position: myLatLng,
-		  //   map: map,
-		  //   draggable: true,
-    // 		animation: google.maps.Animation.Drop,
-		  //   title: 'Hello World!'
-		  // });
+			  var bikeLayer = new google.maps.BicyclingLayer();
+			  bikeLayer.setMap(map);
 
-		  // marker.addListener('click', toggleBounce);
+			  //adds marker
+			  marker = new google.maps.Marker({
+			    position: latlng;
+			    map: map,
+	    		animation: google.maps.Animation.Drop,
+			    //title: 'Hello World!'
+			  });
+
 		}
 
-		//clicking marker makes it bounce
-		// function toggleBounce() {
-		//   if (marker.getAnimation() !== null) {
-		//     marker.setAnimation(null);
-		//   } else {
-		//     marker.setAnimation(google.maps.Animation.BOUNCE);
-		//   }
-		// }
+		//add many paths; summer code follows
+		// //TODO: understand...
+		
+		// lineSymbol = {
+		// 	path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+		// };
+		// var PolylineCoordinates = [
+		// new google.maps.LatLng(34.101850, -117.717470),
+		// new google.maps.LatLng(34.102620, -117.730310),
+		// ];
+
+		// var Path = new google.maps.Polyline({
+		// 	clickable: false,
+		// 	geodesic: true,
+		// 	path: PolylineCoordinates,
+		// 	icons: [{
+		// 		icon:lineSymbol,
+		// 		offset: "100%" 
+		// 	}],
+		// 	strokeColor: "#FF0000",
+		// 	strokeOpacity: 1.000000,
+		// 	strokeWeight: 4.000000
+		// });
+		// Path.setMap(map);
+
+		// lineSymbol = {
+		// 	path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+		// };
+		
+		// var PolylineCoordinates = [
+		// new google.maps.LatLng(34.101610, -117.724680),
+		// new google.maps.LatLng(34.101590, -117.723660),
+		// ];
+
+		// var Path = new google.maps.Polyline({
+		// 	clickable: false,
+		// 	geodesic: true,
+		// 	path: PolylineCoordinates,
+		// 	icons: [{
+		// 		icon:lineSymbol,
+		// 		offset: "100%" 
+		// 	}],
+		// 	strokeColor: "#FF0000",
+		// 	strokeOpacity: 1.000000,
+		// 	strokeWeight: 4.000000
+		// });
+		// Path.setMap(map);
+
+
+		// lineSymbol = {
+		// path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+		// };
+		// var PolylineCoordinates = [
+		// new google.maps.LatLng(34.101790, -117.729050),
+		// new google.maps.LatLng(34.101640, -117.729060),
+		// ];
+
+		// var Path = new google.maps.Polyline({
+		// clickable: false,
+		// geodesic: true,
+		// path: PolylineCoordinates,
+		// icons: [{
+		// icon:lineSymbol,
+		// offset: "100%" 
+		// }],
+		// strokeColor: "#FF0000",
+		// strokeOpacity: 1.000000,
+		// strokeWeight: 4.000000
+		// });
+
+		// Path.setMap(map);
+
+
+		// lineSymbol = {
+		// path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+		// };
+		// var PolylineCoordinates = [
+		// new google.maps.LatLng(34.101640, -117.729050),
+		// new google.maps.LatLng(34.101610, -117.726800),
+		// ];
+
+		// var Path = new google.maps.Polyline({
+		// clickable: false,
+		// geodesic: true,
+		// path: PolylineCoordinates,
+		// icons: [{
+		// icon:lineSymbol,
+		// offset: "100%" 
+		// }],
+		// strokeColor: "#FF0000",
+		// strokeOpacity: 1.000000,
+		// strokeWeight: 4.000000
+		// });
+
+		// Path.setMap(map);
+
+
+		// lineSymbol = {
+		// path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+		// };
+		// var PolylineCoordinates = [
+		// new google.maps.LatLng(34.101610, -117.726810),
+		// new google.maps.LatLng(34.101610, -117.724680),
+		// ];
+
+		// var Path = new google.maps.Polyline({
+		// clickable: false,
+		// geodesic: true,
+		// path: PolylineCoordinates,
+		// icons: [{
+		// icon:lineSymbol,
+		// offset: "100%" 
+		// }],
+		// strokeColor: "#FF0000",
+		// strokeOpacity: 1.000000,
+		// strokeWeight: 4.000000
+		// });
+
+		// Path.setMap(map);
+
+
+		// lineSymbol = {
+		// path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+		// };
+		// var PolylineCoordinates = [
+		// new google.maps.LatLng(34.102260, -117.730480),
+		// new google.maps.LatLng(34.101790, -117.729050),
+		// ];
+
+		// var Path = new google.maps.Polyline({
+		// clickable: false,
+		// geodesic: true,
+		// path: PolylineCoordinates,
+		// icons: [{
+		// icon:lineSymbol,
+		// offset: "100%" 
+		// }],
+		// strokeColor: "#FF0000",
+		// strokeOpacity: 1.000000,
+		// strokeWeight: 4.000000
+		// });
+
+		// Path.setMap(map);
+
+
+		// lineSymbol = {
+		// path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+		// };
+		// var PolylineCoordinates = [
+		// new google.maps.LatLng(34.101620, -117.718440),
+		// new google.maps.LatLng(34.101620, -117.717470),
+		// ];
+
+		// var Path = new google.maps.Polyline({
+		// clickable: false,
+		// geodesic: true,
+		// path: PolylineCoordinates,
+		// icons: [{
+		// icon:lineSymbol,
+		// offset: "100%" 
+		// }],
+		// strokeColor: "#FF0000",
+		// strokeOpacity: 1.000000,
+		// strokeWeight: 4.000000
+		// });
+
+		// Path.setMap(map);
+
+
+		// lineSymbol = {
+		// path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+		// };
+		// var PolylineCoordinates = [
+		// new google.maps.LatLng(34.102620, -117.730320),
+		// new google.maps.LatLng(34.102260, -117.730460),
+		// ];
+
+		// var Path = new google.maps.Polyline({
+		// clickable: false,
+		// geodesic: true,
+		// path: PolylineCoordinates,
+		// icons: [{
+		// icon:lineSymbol,
+		// offset: "100%" 
+		// }],
+		// strokeColor: "#FF0000",
+		// strokeOpacity: 1.000000,
+		// strokeWeight: 4.000000
+		// });
+
+		// Path.setMap(map);
+
+
+		// lineSymbol = {
+		// path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+		// };
+		// var PolylineCoordinates = [
+		// new google.maps.LatLng(34.101600, -117.723660),
+		// new google.maps.LatLng(34.101610, -117.718440),
+		// ];
+
+		// var Path = new google.maps.Polyline({
+		// clickable: false,
+		// geodesic: true,
+		// path: PolylineCoordinates,
+		// icons: [{
+		// icon:lineSymbol,
+		// offset: "100%" 
+		// }],
+		// strokeColor: "#FF0000",
+		// strokeOpacity: 1.000000,
+		// strokeWeight: 4.000000
+		// });
+
+		// Path.setMap(map);}
 
     	</script>
 
-    	//get API
     	<script async defer
        	 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxmpIJVOSdmBrfIvQ48rYZC8QB6YPUTLY&callback=initMap">
     	</script>
