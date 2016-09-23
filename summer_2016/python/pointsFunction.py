@@ -5,9 +5,12 @@
 
 import xml.etree.ElementTree as ET
 
+#text file will have long, lat separated by new lines
 def kmlParse(kml, text_file="/Users/cssummer16/Desktop/summer_2016/readme/python/out.txt"):
     tree = ET.parse(kml)
     root = tree.getroot()
+    
+    #will go through KML file
     for x in root.findall(".//Placemark"):
         text_file.write(x.find("Point/coordinates").text + '\n')
     fname = text_file.name
