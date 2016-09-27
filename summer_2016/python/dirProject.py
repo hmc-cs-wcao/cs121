@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import googlemaps, os, polyline, webbrowser, time, copy
+import googlemaps, polyline, copy
 import addRouteToMap, pointsFunction, intersectionParse, pygmaps
 import argparse
 
