@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import argparse
 import math
 from functools import total_ordering
 

@@ -1,4 +1,4 @@
-import polyline, math
+import polyline
 import intersectionParse, dirProject
 
 # THRESHOLD = .0001101
