@@ -1,4 +1,4 @@
-import googlemaps, json, polyline
+import googlemaps, polyline
 
 def isochroneFunction(lat, lng, distance):
 	gmaps = googlemaps.Client(key='AIzaSyDaPfA_TUTlbHLDH0K48qS-Jh2ETfCTz_0')
