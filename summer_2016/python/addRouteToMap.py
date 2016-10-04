@@ -44,7 +44,7 @@ def addRoute (mapOfNodes, intersections, directionIntersection, points):
             mapOfNodes[previous_node] = point_node
 
         previous_node = point_node
-    print("done with path")
+    # print("done with path")
     return mapOfNodes
 
 def snapToIntersection(points, intersections):
@@ -57,14 +57,14 @@ def interExist(point, intersections):
     best_distance, best_node = distances[0]
     
     if best_distance < THRESHOLD:
-        print("node")
+        # print("node")
         return best_node
     else:
-        print("point")
+        # print("point")
         return point
 
 def getSpPoint(A,B,close_intersections):
-    print("In get SP point")
+    # print("In get SP point")
     missing_intersection = []
     for C in close_intersections:
         x1 = A.lat
