@@ -19,7 +19,7 @@ def addRoute (mapOfNodes, intersections, directionIntersection, points):
         if point_node in mapOfNodes:
             # Place holder for where there should already be direction to the school
             mapOfNodes[previous_node] = point_node
-            print('here, place holder for nodes already in mapOfNodes')
+            # print('here, place holder for nodes already in mapOfNodes')
             break 
 
         distance_lat = abs(point_node.lat - previous_node.lat)
