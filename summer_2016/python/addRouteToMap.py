@@ -19,7 +19,7 @@ def addRoute (mapOfNodes, intersections, directionIntersection, points):
         if point_node in mapOfNodes:
             # Place holder for where there should already be direction to the school
             mapOfNodes[previous_node] = point_node
-            print('here, place holder for nodes already in mapOfNodes')
+            # print('here, place holder for nodes already in mapOfNodes')
             break 
 
         distance_lat = abs(point_node.lat - previous_node.lat)
@@ -44,7 +44,7 @@ def addRoute (mapOfNodes, intersections, directionIntersection, points):
             mapOfNodes[previous_node] = point_node
 
         previous_node = point_node
-    print("done with path")
+    # print("done with path")
     return mapOfNodes
 
 def snapToIntersection(points, intersections):
@@ -57,14 +57,14 @@ def interExist(point, intersections):
     best_distance, best_node = distances[0]
     
     if best_distance < THRESHOLD:
-        print("node")
+        # print("node")
         return best_node
     else:
-        print("point")
+        # print("point")
         return point
 
 def getSpPoint(A,B,close_intersections):
-    print("In get SP point")
+    # print("In get SP point")
     missing_intersection = []
     for C in close_intersections:
         x1 = A.lat

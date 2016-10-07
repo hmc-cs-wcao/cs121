@@ -29,7 +29,7 @@ class maps:
 
     def addradpoint(self, lat,lng,rad,color = '#0000FF'):
         self.radpoints.append((lat,lng,rad,color))
-        print('here')
+        # print('here')
 
     def addpath(self,path,weightInput,color = '#FF0000'):
         path.append(color)
