@@ -18,7 +18,7 @@ def main(kml_file, html_file, text_file):
     
     #control for arrow colour: for debugging
     colors = ['#000000','#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#00FFFF', '#FF00FF']
-    color_count = 0
+    color_count = 3
     
     #get intersection data
     intersection_file = pointsFunction.kmlParse(kml_file,text_file)
@@ -58,9 +58,9 @@ def main(kml_file, html_file, text_file):
             THE_MAP.addpath([key, mapOfNodes[key]], key.value, colors[color_count])
             
             #Colour control
-            color_count +=1
-            if color_count == 6:
-                color_count = 0
+            # color_count +=1
+            # if color_count == 6:
+                # color_count = 0
 
             
     THE_MAP.addpoint(34.10185, -117.71747, "#FF0000")
