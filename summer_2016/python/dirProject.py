@@ -84,45 +84,61 @@ def main(kml_file, html_file, text_file):
             markerLNG = 34.101850
 
             dist = math.sqrt( (abs((markerLAT - key.lat) * (markerLAT - key.lat)) )  + (abs((markerLNG - key.lng) * (markerLNG - key.lng)) )  )
-            dist0 = float.hex(dist * 10)
-            hexdist = repr(dist0) #converts hex to string
-            redhex0 = hexdist[5:]
-            redhex = redhex0[:2]
+            # dist0 = float.hex(dist * 3)
+            # hexdist = repr(dist0) #converts hex to string
+            # redhex0 = hexdist[5:]
+            # redhex = redhex0[:2]
  
-            modifier = float.hex(dist)
-            modifier1 = repr(modifier)
-            mod0 = modifier1[5:]
-            mod1 = mod0[:2]
+            # modifier = float.hex(dist)
+            # modifier1 = repr(modifier)
+            # mod0 = modifier1[5:]
+            # mod1 = mod0[:2]
 
-            modifier2 = float.hex(dist * 3)
-            modifier3 = repr(modifier2)
-            mod2 = modifier3[5:]
-            mod3 = mod2[:2]
+            # modifier2 = float.hex(dist * 3)
+            # modifier3 = repr(modifier2)
+            # mod2 = modifier3[5:]
+            # mod3 = mod2[:2]
 
-            color = '#' + redhex + mod1 + mod3
-            print(color)
+            # color = '#' + redhex + 'AA' + 'AA'
+            # print(color)
 
-            colors[3] = color
+            # colors[3] = color
 
             # print(hexdist)
             # print(modifier1)
             # print(modifier3)
 
             # trying to get hex to work
-            # base = 0xFFFFFF
-            # percent = dist * 10 #800 is the max distance away
-            # hexpercent = 0xFF - (percent * 0xFF)
-            # first = (base & 0xFF0000) >> 16
-            # second = (base & 0xFF00) >> 8
-            # third = base & 0xFF
-            # color1 = hex((int(first - hexpercent) << 16) | (int(second - hexpercent) << 8) | int(third - hexpercent))
+            base = 0xFFFFFF
+            # percent = dist #800 is the max distance away
+            hexpercent = 0xFF - (dist * 0x0A * 0xFF)
+            first = (base & 0xFF0000) >> 16
+            second = (base & 0xFF00) >> 8
+            third = base & 0xFF
+            color1 = hex((int (2* (first - hexpercent)) << 16) | (int (4*(second - hexpercent)) << 8) | int(third - hexpercent))
+
+            # print (color1)
+            # print (hex(int(first - hexpercent) << 16))
+            # print (hex(int(second - hexpercent) << 8))
+            # print (hex(int(third - hexpercent)))
+
+            color2 = repr(color1)
+            color3 = color2[3:]
+            color4 = color3[:6]
+            color5 = '#' + color4
+            print(color5)
+
+            # first = (hex(8 * int(dist)) & 0xFF0000) >> 16
+            # second = (hex(40 * int(dist)) & 0xFF00) >> 8
+            # third = (hex(20 * int(dist)) & 0xFF)
+            # color1 = hex((int(first) << 16) | (int(second ) << 8) | int(third ))
+
+            colors[3] = color5
 
             # print(color1)
-            # print (int(first - hexpercent) << 16)
-            # print (int(second - hexpercent) << 8)
-            # print(third - hexpercent)
-
-            # colors[3] = color1
+            # print(first)
+            # print(second)
+            # print(third)
 
             THE_MAP.addpath([key, mapOfNodes[key]], key.value, colors[color_count])
             
