@@ -3,6 +3,7 @@
 import googlemaps, polyline, copy
 import addRouteToMap, pointsFunction, intersectionParse, pygmaps
 import argparse
+import math
 
 
 # Initial map properties
@@ -51,10 +52,78 @@ def main(kml_file, html_file, text_file):
     for key in mapOfNodes:
         if(mapOfNodes[key] is not None):
             
-            # Print statements for debugging:
-            #print("Map leg: ", mapOfNodes[key], key)
-            #print(key.lat, key.lng)
-            #print(mapOfNodes[key].lat, mapOfNodes[key].lng)
+           # Print statements for debugging:
+            # print("Map leg: ", mapOfNodes[key], key)
+
+            # Marina note - for now will use this lat/long for determining color. Will work out logic, and then decide if there is a better solution.
+            # print(key.lat, key.lng)
+
+            # center = LAT = 34.09668, LNG = -117.71978
+            # start by trying blue if less than 117.2, red if within, see what happens
+
+            # is greater than LNG + .05 for all key.lng 
+            #  + .01445
+            # if (key.lng > LAT ):
+            #     # if (key.lng > LAT + .0005):
+            #     #     color_count = 2
+            #     #     print("it worked")
+            #     # else:
+            #     color_count = 6
+            #         # print ("also worked")
+            # else:
+            #     print("ah ha!")
+            #     color_count = 3
+            # print(key.lng)
+            # print (LAT)
+            # print (key.lat)
+            # print (LNG)
+
+            #34.101850, -117.717470 = marker
+
+            markerLAT = -117.717470
+            markerLNG = 34.101850
+
+            dist = math.sqrt( (abs((markerLAT - key.lat) * (markerLAT - key.lat)) )  + (abs((markerLNG - key.lng) * (markerLNG - key.lng)) )  )
+            dist0 = float.hex(dist * 10)
+            hexdist = repr(dist0) #converts hex to string
+            redhex0 = hexdist[5:]
+            redhex = redhex0[:2]
+ 
+            modifier = float.hex(dist)
+            modifier1 = repr(modifier)
+            mod0 = modifier1[5:]
+            mod1 = mod0[:2]
+
+            modifier2 = float.hex(dist * 3)
+            modifier3 = repr(modifier2)
+            mod2 = modifier3[5:]
+            mod3 = mod2[:2]
+
+            color = '#' + redhex + mod1 + mod3
+            print(color)
+
+            colors[3] = color
+
+            # print(hexdist)
+            # print(modifier1)
+            # print(modifier3)
+
+            # trying to get hex to work
+            # base = 0xFFFFFF
+            # percent = dist * 10 #800 is the max distance away
+            # hexpercent = 0xFF - (percent * 0xFF)
+            # first = (base & 0xFF0000) >> 16
+            # second = (base & 0xFF00) >> 8
+            # third = base & 0xFF
+            # color1 = hex((int(first - hexpercent) << 16) | (int(second - hexpercent) << 8) | int(third - hexpercent))
+
+            # print(color1)
+            # print (int(first - hexpercent) << 16)
+            # print (int(second - hexpercent) << 8)
+            # print(third - hexpercent)
+
+            # colors[3] = color1
+
             THE_MAP.addpath([key, mapOfNodes[key]], key.value, colors[color_count])
             
             #Colour control
