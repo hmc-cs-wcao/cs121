@@ -1,5 +1,5 @@
 
-function initialize() {
+	function initialize() {
 		var centerlatlng = new google.maps.LatLng(34.096680, -117.719780);
 		var myOptions = {
 			zoom: 15,
@@ -32,7 +32,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#1e3d0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -56,7 +56,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#1a350d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -80,7 +80,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#70e03'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -104,7 +104,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#1c390e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -128,7 +128,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#356a1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -152,7 +152,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#285014",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -176,7 +176,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#274e13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -200,7 +200,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#19330c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -224,7 +224,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#274f13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -248,7 +248,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#295214",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -272,7 +272,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#34681a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -296,7 +296,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#3b761d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -320,7 +320,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#70f03'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -344,7 +344,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#376e1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -368,7 +368,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#285114",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -392,7 +392,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#2a5415",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -416,7 +416,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#2c5816",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -440,7 +440,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2d5b16",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -464,7 +464,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#2c5816",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -488,7 +488,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#152b0a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -512,7 +512,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#224511",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -536,7 +536,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#316318",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -560,7 +560,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#448922",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -584,7 +584,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#122409",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -608,31 +608,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
-strokeOpacity: 1.000000,
-strokeWeight: 4.000000
-});
-
-Path.setMap(map);
-
-
-lineSymbol = {
-path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
-};
-var PolylineCoordinates = [
-new google.maps.LatLng(34.106200, -117.710930),
-new google.maps.LatLng(34.106200, -117.711090),
-];
-
-var Path = new google.maps.Polyline({
-clickable: false,
-geodesic: true,
-path: PolylineCoordinates,
-icons: [{
-icon:lineSymbol,
-offset: "100%" 
-}],
-strokeColor: "#FF0000",
+strokeColor: "#244912",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -656,7 +632,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#285014",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -680,7 +656,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#162c0b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -704,7 +680,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#3b761d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -728,7 +704,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#356a1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -752,7 +728,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#2e5d17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -776,7 +752,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#234611",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -800,7 +776,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#132709",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -824,7 +800,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#3a751d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -848,7 +824,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#d1b06'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -872,7 +848,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2c5916",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -896,7 +872,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#1f3f0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -920,7 +896,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2b5715",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -944,7 +920,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#f1e07'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -968,7 +944,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#2e5c17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -992,7 +968,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#356b1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1016,7 +992,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#316218",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1040,7 +1016,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#254a12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1064,7 +1040,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#1e3d0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1088,7 +1064,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#306018",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1112,7 +1088,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#19320c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1136,7 +1112,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#366d1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1160,7 +1136,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2c5916",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1184,7 +1160,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#224511",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1208,7 +1184,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#326419",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1232,7 +1208,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#264d13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1256,7 +1232,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#356a1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1280,7 +1256,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#f1e07'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1304,7 +1280,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1328,7 +1304,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#1f3f0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1352,7 +1328,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2e5c17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1376,7 +1352,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#162c0b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1400,7 +1376,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#285114",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1424,7 +1400,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#264d13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1448,7 +1424,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#274f13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1472,7 +1448,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#14290a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1496,7 +1472,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#3b761d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1520,7 +1496,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#336719",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1544,7 +1520,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#326519",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1568,7 +1544,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#2b5615",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1592,7 +1568,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#18310c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1616,7 +1592,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#132609",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1640,7 +1616,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#285014",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1664,7 +1640,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1688,7 +1664,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#14290a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1712,7 +1688,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#1e3d0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1736,7 +1712,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2b5615",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1760,7 +1736,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#376e1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1784,7 +1760,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2f5f17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1808,7 +1784,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1a350d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1832,7 +1808,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#285114",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1856,7 +1832,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#4d9a26",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1880,7 +1856,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#1f3e0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1904,7 +1880,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#234711",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1928,7 +1904,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#254a12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1952,7 +1928,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2d5a16",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -1976,7 +1952,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#132609",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2000,7 +1976,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#274e13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2024,7 +2000,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#285114",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2048,7 +2024,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#19330c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2072,7 +2048,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#264d13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2096,7 +2072,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#112208",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2120,7 +2096,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#2e5c17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2144,7 +2120,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#122409",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2168,7 +2144,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#336719",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2192,7 +2168,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#2c5816",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2216,7 +2192,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#234611",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2240,7 +2216,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2b5715",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2264,7 +2240,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#254a12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2288,7 +2264,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#285114",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2312,7 +2288,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#1a350d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2336,7 +2312,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#14290a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2360,7 +2336,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#264d13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2384,7 +2360,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#234711",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2408,7 +2384,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#112308",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2432,7 +2408,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#2b5715",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2456,7 +2432,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#306118",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2480,7 +2456,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#264c13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2504,7 +2480,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#234611",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2528,7 +2504,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1d3a0e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2552,7 +2528,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#356a1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2576,7 +2552,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#224511",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2600,7 +2576,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#162c0b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2624,7 +2600,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#458b22",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2648,7 +2624,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2672,7 +2648,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#458a22",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2696,7 +2672,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#295314",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2720,7 +2696,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#214310",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2744,7 +2720,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2e5c17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2768,7 +2744,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#132609",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2792,7 +2768,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2b5715",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2816,7 +2792,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1a340d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2840,7 +2816,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#34681a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2864,7 +2840,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#234711",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2888,7 +2864,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#234611",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2912,7 +2888,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#19320c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2936,7 +2912,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2f5f17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2960,7 +2936,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2c5916",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -2984,7 +2960,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#2e5d17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3008,7 +2984,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#1e3d0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3032,7 +3008,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#172e0b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3056,7 +3032,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#132609",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3080,7 +3056,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#264c13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3104,7 +3080,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#50b02'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3128,7 +3104,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#489024",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3152,7 +3128,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#295214",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3176,7 +3152,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#1f3e0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3200,7 +3176,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#244812",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3224,7 +3200,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#356a1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3248,7 +3224,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#234711",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3272,7 +3248,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#18310c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3296,7 +3272,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#468d23",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3320,7 +3296,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#306118",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3344,7 +3320,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#102108",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3368,7 +3344,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#3b761d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3392,7 +3368,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#234711",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3416,7 +3392,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#285014",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3440,7 +3416,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#326419",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3464,7 +3440,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2a5415",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3488,7 +3464,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#2a5415",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3512,7 +3488,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#244812",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3536,7 +3512,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#214210",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3560,7 +3536,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#91204'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3584,7 +3560,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#2d5a16",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3608,7 +3584,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#3f7f1f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3632,7 +3608,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#274f13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3656,7 +3632,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#204110",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3680,7 +3656,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1d3b0e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3704,7 +3680,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#2b5615",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3728,7 +3704,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#1c380e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3752,7 +3728,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#162c0b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3776,7 +3752,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#2c5816",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3800,7 +3776,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#264c13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3824,7 +3800,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1e3d0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3848,7 +3824,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#1a350d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3872,7 +3848,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#152a0a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3896,7 +3872,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#316218",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3920,7 +3896,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#264d13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3944,7 +3920,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#1b370d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3968,7 +3944,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#285114",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -3992,7 +3968,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#254b12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4016,7 +3992,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#366c1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4040,7 +4016,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#34691a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4064,7 +4040,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#224411",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4088,7 +4064,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#306018",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4112,7 +4088,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#295314",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4136,7 +4112,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#306118",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4160,7 +4136,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#1e3c0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4184,7 +4160,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2d5b16",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4208,7 +4184,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#1c390e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4232,7 +4208,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#376f1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4256,7 +4232,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2f5f17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4280,7 +4256,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#254b12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4304,7 +4280,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#356a1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4328,7 +4304,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#162d0b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4352,7 +4328,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#2d5a16",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4376,7 +4352,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#234711",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4400,7 +4376,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2c5816",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4424,7 +4400,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#274f13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4448,7 +4424,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#499324",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4472,7 +4448,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#1d3b0e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4496,7 +4472,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#244912",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4520,7 +4496,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#3b761d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4544,7 +4520,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#204010",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4568,7 +4544,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#152b0a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4592,7 +4568,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#295214",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4616,7 +4592,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4640,7 +4616,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#274e13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4664,7 +4640,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#152a0a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4688,7 +4664,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#356a1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4712,7 +4688,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#478e23",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4736,7 +4712,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#295314",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4760,7 +4736,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#19320c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4784,7 +4760,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#122509",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4808,7 +4784,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2a5415",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4832,7 +4808,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4856,7 +4832,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#38701c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4880,7 +4856,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#19320c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4904,7 +4880,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#3b761d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4928,7 +4904,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#458b22",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4952,7 +4928,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#172f0b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -4976,7 +4952,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#244912",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5000,7 +4976,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#1d3a0e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5024,7 +5000,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#285014",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5048,7 +5024,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2c5916",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5072,7 +5048,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#244912",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5096,7 +5072,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#1c380e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5120,7 +5096,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#244912",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5144,7 +5120,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#1e3d0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5168,7 +5144,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#204010",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5192,7 +5168,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#e1c07'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5216,7 +5192,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#234711",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5240,7 +5216,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2e5d17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5264,7 +5240,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#316218",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5288,7 +5264,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#356a1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5312,7 +5288,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#2d5b16",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5336,7 +5312,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#306118",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5360,7 +5336,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#19320c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5384,7 +5360,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#295214",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5408,7 +5384,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#285114",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5432,7 +5408,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5456,7 +5432,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#1e3c0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5480,7 +5456,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#3b761d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5504,7 +5480,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#e1c07'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5528,7 +5504,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2c5916",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5552,7 +5528,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1b370d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5576,7 +5552,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#b1705'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5600,7 +5576,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#295314",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5624,7 +5600,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#132609",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5648,7 +5624,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#234611",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5672,7 +5648,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#1b360d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5696,7 +5672,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#102108",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5720,7 +5696,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#19330c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5744,7 +5720,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#2f5f17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5768,7 +5744,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2b5615",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5792,7 +5768,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#285114",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5816,7 +5792,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#224411",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5840,7 +5816,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#e1c07'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5864,7 +5840,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#1a350d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5888,7 +5864,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#1f3f0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5912,7 +5888,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#214210",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5936,7 +5912,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#39731c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5960,7 +5936,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#244812",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -5984,7 +5960,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#234611",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6008,7 +5984,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#306018",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6032,7 +6008,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#214310",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6056,7 +6032,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#38711c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6080,7 +6056,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#2c5916",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6104,7 +6080,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#d1b06'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6128,7 +6104,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#356a1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6152,7 +6128,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#254b12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6176,7 +6152,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#3d7b1e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6200,7 +6176,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#326519",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6224,7 +6200,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#489124",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6248,7 +6224,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#1f3e0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6272,7 +6248,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#132709",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6296,7 +6272,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#316218",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6320,7 +6296,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#1a350d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6344,7 +6320,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#285014",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6368,7 +6344,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#244912",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6392,7 +6368,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#224411",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6416,7 +6392,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#295314",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6440,7 +6416,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#234611",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6464,7 +6440,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#326419",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6488,7 +6464,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#d1b06'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6512,7 +6488,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#295314",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6536,7 +6512,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#366d1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6560,7 +6536,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#316218",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6584,7 +6560,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#254b12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6608,7 +6584,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#285014",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6632,7 +6608,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#244812",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6656,7 +6632,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#316218",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6680,7 +6656,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#1c380e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6704,7 +6680,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1c380e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6728,7 +6704,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#356a1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6752,7 +6728,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#295314",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6776,7 +6752,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#295314",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6800,7 +6776,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#34681a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6824,7 +6800,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#122509",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6848,7 +6824,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1c390e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6872,7 +6848,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#3a741d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6896,7 +6872,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#1e3c0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6920,7 +6896,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#356b1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6944,7 +6920,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#1b370d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6968,7 +6944,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#1a350d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -6992,7 +6968,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2d5b16",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7016,7 +6992,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#295214",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7040,7 +7016,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#1c380e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7064,7 +7040,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#1e3d0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7088,7 +7064,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#274e13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7112,7 +7088,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#274e13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7136,7 +7112,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2c5916",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7160,7 +7136,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#244912",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7184,7 +7160,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#1a350d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7208,7 +7184,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#295314",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7232,7 +7208,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#152a0a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7256,7 +7232,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#1e3d0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7280,7 +7256,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#285014",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7304,7 +7280,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#3b761d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7328,7 +7304,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#326519",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7352,7 +7328,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#1f3e0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7376,7 +7352,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#1f3f0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7400,7 +7376,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#4b9625",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7424,7 +7400,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2e5c17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7448,7 +7424,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#366d1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7472,7 +7448,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#306118",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7496,7 +7472,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2d5b16",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7520,7 +7496,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#264d13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7544,7 +7520,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#1b360d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7568,7 +7544,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#122409",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7592,7 +7568,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#234611",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7616,7 +7592,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#1f3e0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7640,7 +7616,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#468c23",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7664,7 +7640,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#356a1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7688,7 +7664,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#224411",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7712,7 +7688,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#172e0b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7736,7 +7712,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#224511",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7760,7 +7736,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#295314",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7784,7 +7760,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#306018",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7808,7 +7784,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#214210",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7832,7 +7808,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#376f1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7856,7 +7832,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#306018",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7880,7 +7856,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#122409",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7904,7 +7880,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#264c13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7928,7 +7904,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#f1e07'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7952,7 +7928,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#152b0a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -7976,31 +7952,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
-strokeOpacity: 1.000000,
-strokeWeight: 4.000000
-});
-
-Path.setMap(map);
-
-
-lineSymbol = {
-path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
-};
-var PolylineCoordinates = [
-new google.maps.LatLng(34.106190, -117.710570),
-new google.maps.LatLng(34.106200, -117.710930),
-];
-
-var Path = new google.maps.Polyline({
-clickable: false,
-geodesic: true,
-path: PolylineCoordinates,
-icons: [{
-icon:lineSymbol,
-offset: "100%" 
-}],
-strokeColor: "#00FF00",
+strokeColor: "#264c13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8024,7 +7976,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#224411",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8048,7 +8000,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#316218",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8072,7 +8024,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#264c13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8096,7 +8048,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#2b5615",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8120,7 +8072,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#306018",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8144,7 +8096,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2c5816",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8168,7 +8120,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#81104'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8192,7 +8144,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#244812",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8216,7 +8168,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#204010",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8240,7 +8192,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#1d3b0e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8264,7 +8216,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#254a12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8288,7 +8240,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#336619",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8312,7 +8264,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#306118",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8336,7 +8288,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#2c5816",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8360,7 +8312,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#244812",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8384,7 +8336,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#244912",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8408,7 +8360,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#14290a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8432,7 +8384,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#d1b06'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8456,7 +8408,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#d1b06'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8480,7 +8432,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#2d5b16",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8504,7 +8456,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#1d3b0e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8528,7 +8480,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#295214",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8552,7 +8504,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#3b761d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8576,7 +8528,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#244912",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8600,7 +8552,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#3c781e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8624,7 +8576,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#3a751d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8648,7 +8600,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#102008",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8672,7 +8624,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#1d3b0e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8696,7 +8648,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#295314",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8720,7 +8672,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#214210",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8744,7 +8696,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#2b5715",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8768,7 +8720,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#122409",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8792,7 +8744,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#18310c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8816,7 +8768,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#224511",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8840,7 +8792,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8864,7 +8816,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#366c1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8888,7 +8840,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#1f3e0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8912,7 +8864,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#102008",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8936,7 +8888,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8960,7 +8912,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#39721c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -8984,7 +8936,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#295314",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9008,7 +8960,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#162c0b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9032,7 +8984,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9056,7 +9008,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#40802'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9080,7 +9032,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#1d3a0e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9104,7 +9056,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#234611",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9128,7 +9080,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#204110",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9152,7 +9104,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1c380e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9176,7 +9128,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#1e3d0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9200,7 +9152,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#234611",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9224,7 +9176,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2b5715",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9248,7 +9200,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#295314",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9272,7 +9224,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#1c380e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9296,7 +9248,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#285014",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9320,7 +9272,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#2a5415",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9344,7 +9296,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#254a12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9368,7 +9320,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#1f3f0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9392,7 +9344,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#224511",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9416,7 +9368,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#204010",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9440,7 +9392,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#50a02'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9464,7 +9416,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#34681a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9488,7 +9440,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#38711c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9512,7 +9464,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#274e13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9536,7 +9488,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#336619",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9560,7 +9512,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#38701c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9584,7 +9536,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#d1a06'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9608,7 +9560,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#244912",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9632,7 +9584,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#244912",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9656,7 +9608,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#244812",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9680,7 +9632,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#102108",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9704,7 +9656,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#274e13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9728,7 +9680,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#d1a06'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9752,7 +9704,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#3d7a1e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9776,7 +9728,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#152a0a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9800,7 +9752,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#d1b06'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9824,7 +9776,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#254a12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9848,7 +9800,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#244812",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9872,7 +9824,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#4e9d27",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9896,7 +9848,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#3b771d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9920,7 +9872,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9944,7 +9896,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#264d13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9968,7 +9920,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#c1806'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -9992,7 +9944,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2f5f17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10016,7 +9968,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2c5816",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10040,7 +9992,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#1a350d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10064,7 +10016,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#1e3c0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10077,7 +10029,7 @@ path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
 };
 var PolylineCoordinates = [
 new google.maps.LatLng(34.106190, -117.710320),
-new google.maps.LatLng(34.106190, -117.710570),
+new google.maps.LatLng(34.105960, -117.710330),
 ];
 
 var Path = new google.maps.Polyline({
@@ -10088,7 +10040,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10112,7 +10064,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#274e13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10136,7 +10088,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#3a741d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10160,7 +10112,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#264d13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10184,7 +10136,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#366c1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10208,7 +10160,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#224411",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10232,7 +10184,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#356b1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10256,7 +10208,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#132709",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10280,7 +10232,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#254b12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10304,7 +10256,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2e5c17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10328,7 +10280,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#34681a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10352,7 +10304,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#214210",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10376,7 +10328,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2f5f17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10400,7 +10352,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#2f5f17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10424,7 +10376,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#e1d07'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10448,7 +10400,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2c5916",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10472,7 +10424,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#1e3d0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10496,7 +10448,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#34691a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10520,7 +10472,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#1e3d0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10544,7 +10496,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#3b771d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10568,7 +10520,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#326419",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10592,7 +10544,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#102108",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10616,7 +10568,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#306018",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10640,7 +10592,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#254a12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10664,7 +10616,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10688,7 +10640,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#1f3f0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10712,7 +10664,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#4a9425",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10736,7 +10688,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1e3d0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10760,7 +10712,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#244812",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10784,7 +10736,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#224511",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10808,7 +10760,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10832,7 +10784,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#2b5715",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10856,7 +10808,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#3a751d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10880,7 +10832,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#234711",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10904,7 +10856,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#264c13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10928,7 +10880,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10952,7 +10904,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#274e13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -10976,7 +10928,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#214310",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11000,7 +10952,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#19330c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11024,7 +10976,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#244912",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11048,7 +11000,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#2a5415",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11072,7 +11024,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#254a12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11096,7 +11048,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#204010",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11120,7 +11072,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#1d3a0e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11144,7 +11096,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#316218",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11168,7 +11120,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#295214",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11192,7 +11144,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#326419",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11216,7 +11168,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#316318",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11240,7 +11192,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#244912",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11264,7 +11216,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#172e0b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11288,7 +11240,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#295214",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11312,7 +11264,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1c380e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11336,7 +11288,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11360,7 +11312,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#234711",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11384,7 +11336,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#1b370d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11408,7 +11360,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#366d1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11432,7 +11384,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2e5c17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11456,7 +11408,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1e3c0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11480,7 +11432,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#244812",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11504,7 +11456,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#336719",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11528,7 +11480,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#152b0a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11552,7 +11504,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#162d0b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11576,7 +11528,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2a5415",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11600,7 +11552,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#214310",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11624,7 +11576,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#326419",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11648,7 +11600,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#254a12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11672,7 +11624,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#3a751d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11696,7 +11648,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#1d3b0e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11720,7 +11672,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#14290a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11744,7 +11696,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#316318",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11768,7 +11720,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#38711c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11792,7 +11744,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#14290a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11816,7 +11768,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#306018",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11840,7 +11792,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#285114",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11864,7 +11816,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#285014",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11888,7 +11840,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#18300c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11912,7 +11864,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#285014",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11936,7 +11888,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#162c0b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11960,7 +11912,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2a5415",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -11984,7 +11936,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#1d3b0e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12008,7 +11960,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#224511",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12032,7 +11984,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1f3e0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12056,7 +12008,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#234711",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12080,7 +12032,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#356b1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12104,7 +12056,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#132709",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12128,7 +12080,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#356b1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12152,7 +12104,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#264d13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12176,7 +12128,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1f3f0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12200,7 +12152,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#244912",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12224,7 +12176,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#264c13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12248,7 +12200,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#c1806'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12272,7 +12224,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#254b12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12296,7 +12248,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#1c380e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12320,7 +12272,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#285014",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12344,7 +12296,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#14280a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12368,7 +12320,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#132709",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12392,7 +12344,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#366d1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12416,7 +12368,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#132609",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12440,7 +12392,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#1f3e0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12464,7 +12416,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12488,7 +12440,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#254a12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12512,7 +12464,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#3b761d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12536,7 +12488,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2e5d17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12560,7 +12512,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#c1806'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12584,7 +12536,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#306118",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12608,7 +12560,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1e3d0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12632,7 +12584,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#1a350d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12656,7 +12608,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#2e5c17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12680,7 +12632,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#39721c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12704,7 +12656,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#2e5c17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12728,7 +12680,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#306118",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12752,7 +12704,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#224411",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12776,7 +12728,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#122409",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12800,7 +12752,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#376e1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12824,7 +12776,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#244912",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12848,7 +12800,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#285014",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12872,7 +12824,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2a5415",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12896,7 +12848,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#244812",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12920,7 +12872,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#2d5a16",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12944,7 +12896,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#39731c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12968,7 +12920,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2d5a16",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -12992,7 +12944,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#214310",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13016,7 +12968,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#295214",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13040,7 +12992,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#356b1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13064,7 +13016,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#122509",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13088,7 +13040,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#2e5d17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13112,7 +13064,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#234611",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13136,7 +13088,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#2a5415",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13160,7 +13112,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#1b370d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13184,7 +13136,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#19330c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13208,7 +13160,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#224511",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13232,7 +13184,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#244912",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13256,7 +13208,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#274e13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13280,7 +13232,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#224411",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13304,7 +13256,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#366d1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13328,7 +13280,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2b5715",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13352,7 +13304,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#489024",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13376,7 +13328,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#132709",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13400,7 +13352,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#274f13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13424,7 +13376,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#214210",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13448,7 +13400,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#3a741d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13472,7 +13424,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#428421",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13496,7 +13448,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#326519",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13520,7 +13472,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#336619",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13544,7 +13496,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#1d3b0e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13568,7 +13520,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#264c13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13592,7 +13544,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#326419",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13616,7 +13568,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#2b5615",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13640,7 +13592,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#38711c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13664,7 +13616,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#285114",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13688,7 +13640,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#295314",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13712,7 +13664,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#3c791e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13736,7 +13688,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#234711",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13760,7 +13712,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#264c13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13784,7 +13736,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#326519",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13808,7 +13760,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#285014",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13832,7 +13784,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#356a1a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13856,7 +13808,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#2a5515",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13880,7 +13832,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#3a741d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13904,7 +13856,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#285114",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13928,7 +13880,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#204110",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13952,7 +13904,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#285014",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -13976,7 +13928,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#f1f07'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14000,7 +13952,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#172e0b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14024,7 +13976,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#295314",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14048,7 +14000,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#214310",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14072,7 +14024,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#2d5a16",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14096,7 +14048,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#2f5f17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14120,7 +14072,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#234611",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14144,7 +14096,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#50b02'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14168,7 +14120,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2c5816",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14192,7 +14144,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1f3e0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14216,7 +14168,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#1b370d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14240,7 +14192,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#366c1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14264,7 +14216,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#366c1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14288,7 +14240,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#1d3b0e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14312,7 +14264,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#152a0a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14336,7 +14288,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#1c380e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14360,7 +14312,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#3b761d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14384,7 +14336,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#3a751d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14408,7 +14360,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#234611",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14432,7 +14384,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#214210",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14456,7 +14408,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#264d13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14480,7 +14432,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#489124",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14504,7 +14456,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#326419",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14528,7 +14480,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#254a12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14552,7 +14504,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#3c791e",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14576,7 +14528,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#204110",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14600,7 +14552,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#1a340d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14624,7 +14576,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#14290a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14648,7 +14600,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#2b5715",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14672,7 +14624,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#19320c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14696,7 +14648,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2f5e17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14720,7 +14672,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#295214",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14744,7 +14696,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#224511",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14768,7 +14720,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#38711c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14792,7 +14744,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#234711",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14816,7 +14768,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#152a0a",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14840,7 +14792,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#376e1b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14864,7 +14816,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#2d5a16",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14888,7 +14840,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#295214",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14912,7 +14864,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#326519",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14936,7 +14888,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#39721c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14960,7 +14912,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#254b12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -14984,7 +14936,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#1b360d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15008,7 +14960,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#3b761d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15032,7 +14984,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#d1b06'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15056,7 +15008,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#468c23",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15080,7 +15032,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#18300c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15104,7 +15056,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#1a340d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15128,7 +15080,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#254b12",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15152,7 +15104,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#d1b06'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15176,7 +15128,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#264d13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15200,7 +15152,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#244812",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15224,7 +15176,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#326519",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15248,7 +15200,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#1f3e0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15272,7 +15224,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#2f5f17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15296,7 +15248,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#1e3d0f",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15320,7 +15272,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#264c13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15344,7 +15296,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#468c23",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15368,7 +15320,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#2d5a16",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15392,7 +15344,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#264c13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15416,7 +15368,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#264c13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15440,7 +15392,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#2f5f17",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15464,7 +15416,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2b5615",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15488,7 +15440,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#234611",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15512,7 +15464,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#418320",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15536,7 +15488,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#c1806'",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15560,7 +15512,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#3b761d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15584,7 +15536,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#38701c",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15608,7 +15560,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#3b771d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15632,7 +15584,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FF00",
+strokeColor: "#162d0b",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15656,7 +15608,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#0000FF",
+strokeColor: "#1b360d",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15680,7 +15632,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FFFF00",
+strokeColor: "#468c23",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15704,7 +15656,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#00FFFF",
+strokeColor: "#274f13",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15728,7 +15680,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#000000",
+strokeColor: "#428421",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
@@ -15752,7 +15704,7 @@ icons: [{
 icon:lineSymbol,
 offset: "100%" 
 }],
-strokeColor: "#FF0000",
+strokeColor: "#2c5816",
 strokeOpacity: 1.000000,
 strokeWeight: 4.000000
 });
