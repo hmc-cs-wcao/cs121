@@ -6,31 +6,36 @@ import math
 
 class maps:
 
+    # Initial map properties
     def __init__(self, centerLat, centerLng, zoom ):
         self.center = (float(centerLat),float(centerLng))
         self.zoom = int(zoom)
         self.grids = None
-        self.paths = []
+        self.paths = [] #store all the paths
         self.points = []
-        self.weight = []
+        self.weight = [] #store weight of the different paths
         self.count = 0
         self.radpoints = []
         self.gridsetting = None
         self.coloricon = 'http://chart.apis.google.com/chart?cht=mm&chs=12x16&chco=FFFFFF,XXXXXX,000000&ext=.png'
 
+    # set map grids
     def setgrids(self,slat,elat,latin,slng,elng,lngin):
         self.gridsetting = [slat,elat,latin,slng,elng,lngin]
-
+    
+    # add point onto map
     def addpoint(self, lat, lng, color = '#FF0000', title = None):
         self.points.append((lat,lng,color[1:],title))
 
     #def addpointcoord(self, coord):
     #    self.points.append((coord[0],coord[1]))
 
+    # add a point with a radius (Meter) - Draw cycle
     def addradpoint(self, lat,lng,rad,color = '#0000FF'):
         self.radpoints.append((lat,lng,rad,color))
-        # print('here')
+        print('here')
 
+    #  add a path into map, the data struceture of Path is a list of points
     def addpath(self,path,weightInput,color = '#FF0000'):
         path.append(color)
         self.weight.append(weightInput) 
@@ -61,6 +66,7 @@ class maps:
         f.write('</html>\n')        
         f.close()
 
+    # draw grids onto map
     def drawgrids(self, f):
         if self.gridsetting == None:
             return
@@ -82,16 +88,20 @@ class maps:
         
         for line in self.grids:
             self.drawPolyline(f,line,strokeColor = "#000000")
+
+    # draw four points on map
     def drawpoints(self,f):
         for point in  self.points:
             self.drawpoint(f,point[0],point[1],point[2],point[3])
-
+    
+    # draw a polygon points that's in a circle
     def drawradpoints(self, f):
         for rpoint in self.radpoints:
             path = self.getcycle(rpoint[0:3])
             # print("Path:", path)
             self.drawPolygon(f,path,strokeColor = rpoint[3])
 
+    # return a cycle with its points 
     def getcycle(self,rpoint):
         cycle = []
         lat = rpoint[0]
@@ -110,6 +120,7 @@ class maps:
             cycle.append( ( float(y*(180.0/math.pi)),float(x*(180.0/math.pi)) ) )
         return cycle
 
+    # draw paths with color stored in path and corresponding path weight 
     def drawpaths(self, f, paths, weight):
         for path in paths:
             #print path
@@ -148,6 +159,7 @@ class maps:
         f.write('\t\tmarker.setMap(map);\n')
         f.write('\n')
         
+    # draw a red polyline
     def drawPolyline(self,f,path,\
             clickable = False, \
             geodesic = True,\
@@ -181,6 +193,7 @@ class maps:
         f.write('Path.setMap(map);\n')
         f.write('\n\n')
 
+        # draw a red polygon with cordinates in path
     def drawPolygon(self,f,path,\
             clickable = False, \
             geodesic = True,\
@@ -220,7 +233,7 @@ if __name__ == "__main__":
     # PARAMETER3:    zoom (int)  map zoom level 0~20
     # RETURN:    the instant of pygmaps
     #========================================================================================
-    mymap = pygmaps(37.428, -122.145, 16)
+    mymap = pygmaps(37.428, -122.145, 20)
 
 
     ########## FUNCTION: setgrids(start-Lat, end-Lat, Lat-interval, start-Lng, end-Lng, Lng-interval) ######
@@ -245,7 +258,8 @@ if __name__ == "__main__":
     #        e.g. red "#FF0000", Blue "#0000FF", Green "#00FF00"
     # RETURN:    no return
     #========================================================================================
-    mymap.addpoint(37.427, -122.145, "#0000FF")
+    #mymap.addpoint(37.427, -122.145, "#0000FF")
+    mymap.addpoint(37.427, -122.145, "#FFA500")
 
 
     ########## FUNCTION:  addradpoint(latitude, longitude, radius, [color])##################
