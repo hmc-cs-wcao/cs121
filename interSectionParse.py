@@ -31,7 +31,7 @@ class Node():
 def createIntersections(file):
     def createNode(line):
         # Drop the last element (why is this 0.0 there to begin with?)
-        lat, lng = line.strip().split(',')[:-1]
+        lat, lng = line.strip().split(',')
         return Node(lat,lng)
 
     return list(map(createNode, open(file).readlines()))
