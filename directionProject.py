@@ -54,8 +54,8 @@ def main(kml_file, html_file, text_file):
 
             #34.101850, -117.717470 = marker
 
-            markerLAT = -117.717470
-            markerLNG = 34.101850
+            markerLAT = LNG
+            markerLNG = LAT
 
             dist = math.sqrt( (abs((markerLAT - key.lat) * (markerLAT - key.lat)) )  + (abs((markerLNG - key.lng) * (markerLNG - key.lng)) )  )
             
@@ -69,7 +69,7 @@ def main(kml_file, html_file, text_file):
             THE_MAP.addpath([key, mapOfNodes[key]], key.value, colors[color_count])
 
             
-    THE_MAP.addpoint(34.10185, -117.71747, "#FF0000")
+    THE_MAP.addpoint(LAT, LNG, "#FF0000")
 
     THE_MAP.draw(html_file)
 
