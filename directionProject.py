@@ -37,7 +37,7 @@ def main(kml_file, html_file, text_file):
         
         #find the arrow endpoints
         start = [temp_node.lng, temp_node.lat]
-        end   = [34.10185, -117.71747]
+        end   = [34.10185, -117.71747] # TODO where is this number from?
 
         #making a call to the google maps api
         dirs = gmaps.directions(start, end, "walking")
