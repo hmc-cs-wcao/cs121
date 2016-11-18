@@ -1,7 +1,51 @@
 {% extends "layout.html" %}
 {% block content %}
+   <head>
    <div class="about">
      <h1>About this site:</h1>
      <p><i>This web app allows people to look at a map of their nearby school and determine the best walking route to get there. It takes into consideration amount of foot traffic, safety of the area, and path efficiency. It will incorporate parent feedback and extend to multiple schools. </i></p>
    </div>
+
+</head>
+<body>
+
+
+
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Select School</button>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                <a href="{{ url_for('map') }}">School1</a>
+                <a href="{{ url_for('map') }}">School2</a>
+                <a href="{{ url_for('map') }}">School3</a>
+</div>
+
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("myDropdown");
+    a = div.getElementsByTagName("a");
+    for (i = 0; i < a.length; i++) {
+        if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+            a[i].style.display = "";
+        } else {
+            a[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>
+
  {% endblock %}
