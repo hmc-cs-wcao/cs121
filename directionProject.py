@@ -7,8 +7,8 @@ import math
 
 
 # Initial map properties
-LAT = 34.09668
-LNG = -117.71978
+LAT = 34.1126 #34.09668  
+LNG = -117.7219 #-117.71978
 MAP_ZOOM = 15
 THE_MAP = pygmaps.maps(LAT, LNG, MAP_ZOOM)
 
@@ -17,7 +17,7 @@ def main(kml_file, html_file, text_file):
     # API key 
     gmaps = googlemaps.Client(key='AIzaSyDaPfA_TUTlbHLDH0K48qS-Jh2ETfCTz_0')
     
-    #control for arrow colour: for debugging
+    #possible arrow colors
     colors = ['#ff99ff','#ff00ff', '#660066']
     color_count = 0
     
@@ -37,7 +37,7 @@ def main(kml_file, html_file, text_file):
         
         #find the arrow endpoints
         start = [temp_node.lng, temp_node.lat]
-        end   = [LAT, LNG] 
+        end   = [LAT, LNG] # WHERE IS THIS FROM?
 
         #making a call to the google maps api
         dirs = gmaps.directions(start, end, "walking")
@@ -51,8 +51,6 @@ def main(kml_file, html_file, text_file):
     # iterate through arrows
     for key in mapOfNodes:
         if(mapOfNodes[key] is not None):
-
-            #34.101850, -117.717470 = marker
 
             markerLAT = LNG
             markerLNG = LAT
