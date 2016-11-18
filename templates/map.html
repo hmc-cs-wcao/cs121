@@ -1,18 +1,13 @@
-
 {% extends "layout.html" %}
 {% block content %}
 
 <head> 
 
-</head>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDaPfA_TUTlbHLDH0K48qS-Jh2ETfCTz_0"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/mapScript.js') }}"> </script> </head>
 
 <body style="margin:0px; padding:0px;" onload="initialize()">
-<div id="map_canvas" style="width: 1200px; height: 913px; overflow:hidden">
-	
-<iframe width="90%" height="300px" frameBorder="0" src="http://umap.openstreetmap.fr/en/map/new/?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="http://umap.openstreetmap.fr/en/map/new/">See full screen</a></p>
-
-</div>
-
+<div id="map_canvas" style="width: 1200px; height: 913px; overflow:hidden"></div>
 </body>
 
 {% endblock %}
