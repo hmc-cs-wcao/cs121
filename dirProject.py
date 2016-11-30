@@ -6,9 +6,9 @@ import argparse
 import math
 
 
-# Initial map properties
-LAT = 34.1126 #34.09668  
-LNG = -117.7219 #-117.71978
+# Initial map properties - **CHANGE LAT/LNG FOR EACH SCHOOL**
+LAT = 34.1165 
+LNG = -117.7082 
 MAP_ZOOM = 15
 THE_MAP = pygmaps.maps(LAT, LNG, MAP_ZOOM)
 
