@@ -3,22 +3,119 @@
   <head>
     <title>Flask app</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
-  </head>
-  <body>
+<!--    <style>
+ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ccccff;
+}
+
+li {
+    float: left;
+
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: yellow;
+}
+
+li.dropdown {
+    display: inline-block;
+    background-color: ##ccccff;
+    /*margin-left: 10px;*/
+}
+
+.dropdown-content {
+    color : ##8000ff;
+    display: none;
+    position: absolute;
+    background-color: ##ccccff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    left: 2px;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #ffffcc}
+
+.show {display:block;}
+</style>
+-->
+</head>
+
+<body>
     <header>
       <div class="container">
-        <h1 class="logo"><a style="text-decoration : none; color : #b3ffff;" href="{{ url_for('about') }}">Group 7's web app</a></h1>
+        <h1 class="logo"><a style="text-decoration : none; color : ##8000ff;" href="{{ url_for('about') }}">Active Transportation Maps</a>
+        </h1>
+
         <strong><nav>
-          <ul class="menu">
-            <li><a href="{{ url_for('about') }}">About</a></li>
-            <li><a href="{{ url_for('map') }}">Map</a></li>
-          </ul>
+          <ul class="menu">  
+           
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()" >Map</a>
+              <div class="dropdown-content" id="myDropdown" >
+                <a href="{{ url_for('map') }}">Sycasmore Elementary</a>
+                <a href="{{ url_for('map') }}">School2</a>
+                <a href="{{ url_for('map') }}">School3</a>
+                <a href="{{ url_for('map') }}">School4</a>
+                <a href="{{ url_for('map') }}">School5</a>
+
+              <li><a href="{{ url_for('about') }}">Home</a></li>
+          </div>
+          </li>
+        </ul>
         </nav></strong>
       </div>
     </header>
+
       <div class="container">
         {% block content %}
         {% endblock %}
       </div>
+
+     
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
   </body>
 </html>
