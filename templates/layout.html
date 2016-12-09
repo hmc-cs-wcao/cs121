@@ -69,8 +69,15 @@ li.dropdown {
             <li class="dropdown">
               <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()" >Map</a>
               <div class="dropdown-content" id="myDropdown" >
-                <a href="{{ url_for('map') }}">Sycasmore Elementary</a>
-                <a href="{{ url_for('map') }}">School2</a>
+                <!-- ************ --->
+                <!--
+                <a action="{{ mapSwitch('6b698499-cf3d-4710-b9a8-7e0b97effc08') }}" href="{{ url_for('map') }}">Claremont High School</a>
+                <a action="{{ mapSwitch('e1aee1a8-3e3e-4e2f-8623-dbcf8c96a889') }}" href="{{ url_for('map') }}">Chaparral Elementary School</a>
+                -->
+                <!-- ************ --->
+                <!-- UNCOMMENT THE ABOVE AND SWITCH WITH THE BELOW TWO LINES TO ENGAGE MAP SWITCH -->
+                <a href="{{ url_for('map') }}">Claremont High School</a>
+                <a action="{{ mapSwitch('e1aee1a8-3e3e-4e2f-8623-dbcf8c96a889') }}" href="{{ url_for('map') }}">Chaparral Elementary School</a>
                 <a href="{{ url_for('map') }}">School3</a>
                 <a href="{{ url_for('map') }}">School4</a>
                 <a href="{{ url_for('map') }}">School5</a>
