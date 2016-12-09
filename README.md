@@ -1,5 +1,8 @@
 #Active Transportation Maps
-##Harvey Mudd College CS121 Project FALL 2016
+##Harvey Mudd College CS121 Project Fall 2016
+
+##Motivation
+Chapter 7 of California’s MUTCD requires schools to provide prospective students with “a map [...] showing streets, [...] established school routes, and established school crossings.” Liability concerns, however, have slowed the release of such maps. The Active Transportation Maps project is to build a website which generates and displays maps containing potential walking routes for students who walk to and from school. The site includes walking data for students who live within 800 meters of a school, for 8 schools within the Claremont Unified School District.
 
 ##Overview
 Our project can be represented as three connected components: (1) Back End, which is made of several pipeline steps that together generate our maps, (2) Firebase, which stores information of each school and its corresponding map, and (3) Frond End, which is the website that the user engages with.  
@@ -21,7 +24,7 @@ Our project can be represented as three connected components: (1) Back End, whic
 ##Files Descriptions
 ###Back End (pipeline)
 ####Pipeline Step 0: Decide Over a List of Schools
-- In this step, we decide which schools we want to display on our site, and find their geographical - locations. 
+In this step, we decide which schools we want to display on our site, and find their geographical - locations. 
 
 
 #### Pipeline Step 1: Collect Intersections
@@ -54,6 +57,7 @@ In this step we use dirProject.py to call everything to produce a map and update
  - Input:  HTML file of a map generated from dirProject.py
  - Output: none
  - Benefit: This allows us to use a script to update the Google Map on Flask, instead of manually updating the javascript.
+
 ###Firebase
 **Firebase** stores all the Map.html(s)
 - Benefit: The HTMLs of the maps are ready for display without the need to generate a new map each time. Our client has talked about the future goal of the project to be able to display a large amount of schools. Therefore, it is a priority for us to set up Firebase for future scaling at this stage.
