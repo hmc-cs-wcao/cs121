@@ -1,60 +1,72 @@
-# cs121
+#Active Transportation Maps
+#Harvey Mudd College CS121 Project FALL 2016 
+
+#Overview
+Our project can be represented as three connected components: (1) Back End, which is made of several pipeline steps that together generate our maps, (2) Firebase, which stores information of each school and its corresponding map, and (3) Frond End, which is the website that the user engages with.  
+###Back End (pipeline)
+- Pipeline Step 0: Decide over a List of Schools
+- Pipeline Step 1: Collect Intersections
+- Pipeline Step 2: Generate Arrowed Paths
+- Pipeline Step 3: Generate Map HTML
+###Firebase
+###Front End: The Website
+- flaskStart.py: Flask Framework
+- mapScript.js: the generated map
+- CSS styling
+- HTML pages
 
 
-##File Descriptions from Summer
-###pointFunction.py
-  
-**Functions**
-
-  * __kmlParse__
-    * __What it does:__ Takes in a kml file and text_file location as an argument and returns a text file that has lng and lat separeted by commas and each point is distinguised by a new line
-   * __Future:__ Fix that this function does not work if the file is directly imported from google maps and has the line <kml xmlns='http://www.opengis.net/kml/2.2'> but if the link is removed but the tag is left (<kml>) the function runs just fine. 
-
-###intersectionParse.py
-
-  **Class**
-
-  __Node Class__
-
-  * Each intersection is stored as a node, that holds the color, distance, lat, lng and value (or how many times this node is used on the paths to school). It defines the equal, less than, hash and subtraction for nodes.
-  * __Future:__ Nothing is done with the color stored, and not all colors are being updated, there is currently a default value since there are not multiple calls for directions (this has not been implemented yet)
-  
-**Functions**
-     
-* __createIntersections__
-* __What it does:__ Splits the input text file generated from the kmlParse function by comma and removes an extra '0.0' and the \n and returns this as an array. 
-
-###addRouteToMap.py
-  **Functions**
-
-  * __addRoute__
-    * __What it does:__  Takes in a dictionary (mapOfNodes), a list of intersections, a list created from intersections but intersections are removed from this list to prevent repeat direction calls and an array of points returned from google maps directions. For the points in the input list it checks if it is in directionIntersections and removes it if it is. It then finds the distance between the lat and lng and if it is more than a set threshold then close intersections that might be on the path are found and then compared to a threshold if they are lower than the threshold they are sorted and added to the path. 
-    * __Future:__ There is a place that currently has a print statements that says 'not done yet' this portion will need to be written to incorporate multiple direction calls. If they already exist in the mapOfNodes go through and update the value (in the future maybe update colors).
-  * __snapToIntersection__
-    * __What it does:__  Itmakes a call to interExist for each point in the list of points
-  * __interExist__
-    * __What it does:__  It is a helper function to snapToIntersection and it checks to see if the point matches an intersection with in the threshold, if it does it returns the intersection if not it returns the point.
-  * __getSpPount__
-    * __What it does:__ Finds the projection of a point onto a line and if that projection is below the threshold it is added to the list of missing_intersections.
-* **Future**  
+#Files Descriptions
+###Back End (pipeline)
+####Pipeline Step 0: Decide Over a List of Schools
+- In this step, we decide which schools we want to display on our site, and find their geographical - locations. 
 
 
-###dirProject.py
-__Functions__
+#### Pipeline Step 1: Collect Intersections
+In this step we will collect all longtitude and latitude coordinates of the nodes on the intersections and middle of the rodes. We have a list of files:
+- Overpass-turbo.eu: Use this website to automate intersection and dead-end generation into KML file. 
+*Input: school address (input manually)
+*Output: a KML file (which i sa file used to display geographic data) containing intersection coordinates, dead-end road coordinates
+*Benefit: Using this method can replace manual selection of clicking each intersection nodes on the KML file with automatic generation of intersection coordinates.
+*Limits: Overpass map is more complete for European countries than the US. We have found that Overpass map has a missing road on one map of a school compared to Google Maps. 
+- pointFunction.py generates a text file containing a list of the coordinates of all the nodes for generating the arrowed path on a map. 
+*Input: KML file
+*Output: text file of node coordinates
+- intersectionParse.py generates nodes for a map
+*Input: text file of node coordinates
+*Output: nodes to be added to a map
 
-* __main__
-  * __What it does:__  Gets directions from google maps and stores the points and distance returned from google maps and send this information to addRoute, a function located in addRouteToMap.py. Then for every key in mapOfNodes it adds a path, then the point for the school and draws the map which generates an html file using pygmaps.
-  * __How it works:__ Google maps directions api returns the results as a dictionary, gmaps is a variable that makes a call to googlemaps (an imported library) with the API key that is required and free to get from google. Points stores the latitude and longitude of places the polyline follows, distance stores how long traveling takes in seconds.
-  * __Future:__ 
+
+####Pipeline Step 2: Generate Arrowed Paths
+In this step we use addRouteToMap.py to create the paths with arrows.
+*Input: takes the output of pointFunction.py and intersectionParse.py, which are the list of intersections, along with their information as nodes on a map (direction, points, map)
+*Output: removes intersection data if two arrows overlays each other on the same road within a distance and determine length of arrows to put on map
 
 
-**Variables and other things**
+####Pipeline Step 3: Generate HTML
+In this step we use dirProject.py to call everything to produce a map and updateJS.py to put HTML file of map on flask.
+- dirProject.py generates an HTML page, by calling addRouteToMap.py, pointFunction.py, and intersectionParse.py.It calls each function separately so that each one can do a discrete task: pointFunction.py generates a text file for intersectionParse.py to use, which does the pre-processing for the mapping. addRouteToMap.py then take that data and determine the direction and number of arrows to add to the map, which dirProject.py takes and add to a Google Map. 
+*Input: KML file, text output file name, HTML output file name
+*Output: HTML file with a Google Map with arrows on it
+- updateJS.py takes javascript file from HTML page and puts it on Flask
+*Input:  HTML file of a map generated from dirProject.py
+*Output: none
+*Benefit: This allows us to use a script to update the Google Map on Flask, instead of manually updating the javascript.
+###Firebase
+Firebase stores all the Map.html(s)
+Benefit: The HTMLs of the maps are ready for display without the need to generate a new map each time. Our client has talked about the future goal of the project to be able to display a large amount of schools. Therefore, it is a priority for us to set up Firebase for future scaling at this stage.
+Limit: We currently only have around 12 schools, therefore using Firebase to store all their maps is not necessarily. However this choice of design is for future benefit. 
 
-* The kml_file was generated using 'my google maps' I placed a marker at each intersection and exported it as a .kml file. 
 
-* _Future:_ Change the school point on the map to a custom logo possibly the schools mascot. 
-
-###pygmaps.py
-* I got this from a retired python module found [here] (https://code.google.com/archive/p/pygmaps/)
-* __Modifications__ I added variables to the map class to include weight and count, the weight of each node is stored in an array and then when the path is count is incremented so that the corresponding weight goes to the node. I also modified draw polyline to edit the html generated and to include the arrows along with changing the thickness of the arrow. 
-* __Future:__ How to determine the weight from the value, if the value is 8 then the line will become very thick if the strokeWeight is set to 8. Right now it is being divided by 2 in drawpaths. 
+###Front End: The Website
+- flaskStart.py: runs flask and renders the final website, which displays About.html and Map.html(s)
+- CSS: Main.css is our stylesheet for all the html pages
+This file is used for all HTMLs. 
+ 	- HTML pages: 
+- Layout.html: dictates layout that can be applied for for all pages of the website
+- Benefit: We can use this in all other htmls and making our webpages more consistent and our code more concise.
+- About.html
+- It is the main page. It displays an introductory paragraph that explains the purpose of the website to the user, and how to understand the map. It includes a dropdown menu to select one school and go to its map page.
+- Map.html
+- We have a list of map pages. Each page displays the embedded mapScript javascript of one school with arrowed paths on the map.
+- mapScript.js: The JavaScript file containing the corresponding map for the specified school.
